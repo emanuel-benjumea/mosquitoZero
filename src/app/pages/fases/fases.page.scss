@@ -1,0 +1,40 @@
+ion-content{
+    position: relative;
+    top:39px;
+  }
+  
+  main{
+    margin: 5px;
+  }
+  
+  .conteizq{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+  }
+  
+  .conteder{
+    margin: 5px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  
+  model-viewer{
+    width: 100%;
+    height: 15em;
+  }
+  
+  .espacio{
+    margin: 12px;
+    max-height: 10px;
+    min-height: 10px;
+  }
+
+  .pequeño{
+   
+    width:100%;
+    display: grid;
+    grid-template-columns:auto auto auto;
+  }

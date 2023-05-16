@@ -1,0 +1,28 @@
+ion-tab-bar{
+  background-color: var(--ion-color-mozquito-purple);
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+ion-tabs{
+  border-radius: 25px;
+}
+
+ion-tab-button {
+  background-color: var(--ion-color-mozquito-purple);
+  color: white;
+  --color-selected: var(--ion-color-mozquito-blue);
+  transition: background-color 0.5s ease;
+  border-radius: 25px;
+  // transform: translateX(100%);
+}
+
+ion-tab-button:hover{
+  border-radius: 25px;
+  margin: 5px;
+  background-color: white;
+  --color-selected: var(--ion-color-mozquito-blue);
+  color: var(--ion-color-mozquito-blue);
+}
+
